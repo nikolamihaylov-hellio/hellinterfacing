@@ -78,3 +78,5 @@ Speaking of configurable text editors, it's impossible to omit vi/Vim. With a ve
 ### *[Visual Studio Code](https://code.visualstudio.com/)*
 
 Somehow, Microsoft were able to make a genuinely great piece of software that's free and open source (and is also used to write this very document!). Despite being made using the abhorrent Electron framework, it somehow outperforms other software made with it, yet is still filled with tons of great features and good plugin library that's easy to access.
+
+test paragraph
