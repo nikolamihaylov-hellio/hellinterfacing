@@ -78,3 +78,19 @@ Speaking of configurable text editors, it's impossible to omit vi/Vim. With a ve
 ### *[Visual Studio Code](https://code.visualstudio.com/)*
 
 Somehow, Microsoft were able to make a genuinely great piece of software that's free and open source (and is also used to write this very document!). Despite being made using the abhorrent Electron framework, it somehow outperforms other software made with it, yet is still filled with tons of great features and good plugin library that's easy to access.
+
+## Multimedia 
+
+## Music
+
+### Soulseek
+[Soulseek](http://www.slsknet.org/news/node/1) is a filesharing tool that lets users share files from their hard drives through a P2P server in the form of "shares". Highly recommended here for downloading music in all kinds of file formats (FLAC, ogg, mp3, etc...) and building large libraries in a music player of your choice. One of the oldheads in the P2P scene and is still used largely to this day. VPN usage is recommended due to some ~~wankstains~~ users using external programs such as Nicotine for montioring IPs of other users who visit and download from shares. 
+
+[FAQ](http://www.slsknet.org/news/faq-page)
+
+### MusicBee
+[MusicBee](https://getmusicbee.com/downloads/) is a music player. Heavy emphasis on customizability ala WinAmp via all kinds of available skins, UI adjustment options, and general things to make your library swaggy. Supports playback on all kinds of formats, even old school tracker program formats such as ImpulseTracker .IT and ScreamTracker .s3m files. 
+
+### MusicBrainz Picard
+
+### MP3Tag
