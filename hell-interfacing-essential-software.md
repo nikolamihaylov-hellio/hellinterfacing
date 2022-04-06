@@ -46,3 +46,35 @@ This is the beta channel of Mozilla Firefox, which I personally find to be (iron
 <img src="essential-software-images/ungoogledchromium.svg" height="100">
 
 ungoogled-chromium is a modification of Google Chromium which removes pretty much all of the features that phone back home to Google (even in normal Chromium). It does not allow the use of a Google account due to the stripped Google account integration. You might have to spend some time configuring its `chrome://settings` to your liking and enable things like saving cookies and site data upon closing of the browser, as such features are disabled by default for privacy reasons. Consult the [wiki](https://ungoogled-software.github.io/ungoogled-chromium-wiki/) for further information.
+
+## **Utilities**
+### *[Everything](https://www.voidtools.com/)*
+
+Everything is an incredibly fast and lightweight file search engine for Windows which indexes your drive/s and monitors for changes to keep its index up to date. It also allows for Regex and advanced searches based on file metadata for extremely precise searches. It is recommended to exclude the Windows install folder by default as files within that directory could clog up your search results pretty often.
+
+### *[7zip](https://www.7-zip.org/)*
+
+7zip is a free and open source file archiver which can extract and pack compressed files like ZIP, 7Z, TAR, XZ, etc. It should be noted that RAR is only supported in a "read-only" mode, meaning that 7zip cannot create or modify RAR files. Still, 7Z as an archive format should be preferred due to its better compression and efficiency.
+
+### *[HWiNFO](https://www.hwinfo.com/)*
+
+HWiNFO is a Windows application which gives you extremely detailed information on your hardware and what it's currently doing. Think of Speccy, but on steroids. The program includes a sensor monitor which gives you a great view on every single aspect of your computer's hardware as well as a logger to monitor changes over time.
+
+### *[QTTabBar](http://qttabbar.wikidot.com/)*
+QTTabBar gives you more control over customizing the Windows File Explorer by enabling tabs and changing Explorer's behaviour like double-clicking on an empty space to have you go up a directory. It's small stuff, but once you're used to it, there's no going back.
+
+## **Programming**
+### *[Notepad++](https://notepad-plus-plus.org/)*
+Notepad++ is a free/libre source code/text editor for Windows that is deeply customizable to fit your needs. It features syntax highlighting for dozens upon dozens of languages and also has [plugin support](https://github.com/notepad-plus-plus/nppPluginList) for all sorts of things such as a Markdown viewer and encryption/decryption.
+
+### *[GNU Emacs](https://www.gnu.org/software/emacs/)*
+
+GNU Emacs is an absurdly capable Lisp interpreter which goes beyond just being a simple text editor, but a self-contained "operating system", so to speak as well. It is highly extensible and customizable piece of software which is multiplatform and available to use anywhere, though ideally you'd want to use it on a GNU/Linux installation. org-mode is another very important component of GNU Emacs which serves as note-taking, checklisting, authoring, etc.
+
+### *[vi/Vim](https://www.vim.org/)*
+
+Speaking of configurable text editors, it's impossible to omit vi/Vim. With a very steep learning curve especially if you're not used to keyboard-centric editors, once you do get used to it you'll want those vi/Vim keybindings on any other editors, hence the dozens and dozens of keybind integrations in various editors and IDEs. Definitely not recommended for beginners who just want to modify a small config file or casually write text, but recommended to those who want to check out a touted editor.
+
+### *[Visual Studio Code](https://code.visualstudio.com/)*
+
+Somehow, Microsoft were able to make a genuinely great piece of software that's free and open source (and is also used to write this very document!). Despite being made using the abhorrent Electron framework, it somehow outperforms other software made with it, yet is still filled with tons of great features and good plugin library that's easy to access.
