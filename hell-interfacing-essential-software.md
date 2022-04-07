@@ -42,55 +42,110 @@ In response to the surge in popularity that package managers have been receiving
 
 This is the beta channel of Mozilla Firefox, which I personally find to be (ironically enough) more stable than the stable channel. You do get quite a bit of "update available" notifications but it's definitely something you can disable in `about:config`. By now everyone should know what Firefox is, and despite Mozilla's [incomprehensibly dumb actions](https://blog.mozilla.org/en/mozilla/we-need-more-than-deplatforming/) over the recent years, this is still a fine browser that competes with the Chromium cancer that's infesting every other contemporary browser out right now. While it is factually slower in some use cases over Chrome or Edge, its extensibility and customization gives it a real advantage that you should consider when picking a browser.
 
+Choco: `choco install firefox-nightly --pre`
+
 ### *[ungoogled-chromium](https://github.com/Eloston/ungoogled-chromium)*
 <img src="essential-software-images/ungoogledchromium.svg" height="100">
 
 ungoogled-chromium is a modification of Google Chromium which removes pretty much all of the features that phone back home to Google (even in normal Chromium). It does not allow the use of a Google account due to the stripped Google account integration. You might have to spend some time configuring its `chrome://settings` to your liking and enable things like saving cookies and site data upon closing of the browser, as such features are disabled by default for privacy reasons. Consult the [wiki](https://ungoogled-software.github.io/ungoogled-chromium-wiki/) for further information.
+
+Choco: `choco install ungoogled-chromium`
 
 ## **Utilities**
 ### *[Everything](https://www.voidtools.com/)*
 
 Everything is an incredibly fast and lightweight file search engine for Windows which indexes your drive/s and monitors for changes to keep its index up to date. It also allows for Regex and advanced searches based on file metadata for extremely precise searches. It is recommended to exclude the Windows install folder by default as files within that directory could clog up your search results pretty often.
 
+Choco: `choco install everything`
+
 ### *[7zip](https://www.7-zip.org/)*
 
 7zip is a free and open source file archiver which can extract and pack compressed files like ZIP, 7Z, TAR, XZ, etc. It should be noted that RAR is only supported in a "read-only" mode, meaning that 7zip cannot create or modify RAR files. Still, 7Z as an archive format should be preferred due to its better compression and efficiency.
+
+Choco: `choco install 7zip`
 
 ### *[HWiNFO](https://www.hwinfo.com/)*
 
 HWiNFO is a Windows application which gives you extremely detailed information on your hardware and what it's currently doing. Think of Speccy, but on steroids. The program includes a sensor monitor which gives you a great view on every single aspect of your computer's hardware as well as a logger to monitor changes over time.
 
+Choco: `choco install hwinfo`
+
 ### *[QTTabBar](http://qttabbar.wikidot.com/)*
 QTTabBar gives you more control over customizing the Windows File Explorer by enabling tabs and changing Explorer's behaviour like double-clicking on an empty space to have you go up a directory. It's small stuff, but once you're used to it, there's no going back.
 
+Choco: `choco install qttabbar`
+
 ## **Programming**
+
 ### *[Notepad++](https://notepad-plus-plus.org/)*
+
 Notepad++ is a free/libre source code/text editor for Windows that is deeply customizable to fit your needs. It features syntax highlighting for dozens upon dozens of languages and also has [plugin support](https://github.com/notepad-plus-plus/nppPluginList) for all sorts of things such as a Markdown viewer and encryption/decryption.
+
+Choco: `choco install notepadplusplus`
 
 ### *[GNU Emacs](https://www.gnu.org/software/emacs/)*
 
 GNU Emacs is an absurdly capable Lisp interpreter which goes beyond just being a simple text editor, but a self-contained "operating system", so to speak as well. It is highly extensible and customizable piece of software which is multiplatform and available to use anywhere, though ideally you'd want to use it on a GNU/Linux installation. org-mode is another very important component of GNU Emacs which serves as note-taking, checklisting, authoring, etc.
 
+Choco: `choco install emacs`
+
 ### *[vi/Vim](https://www.vim.org/)*
 
 Speaking of configurable text editors, it's impossible to omit vi/Vim. With a very steep learning curve especially if you're not used to keyboard-centric editors, once you do get used to it you'll want those vi/Vim keybindings on any other editors, hence the dozens and dozens of keybind integrations in various editors and IDEs. Definitely not recommended for beginners who just want to modify a small config file or casually write text, but recommended to those who want to check out a touted editor.
+
+Choco: `choco install vim`
 
 ### *[Visual Studio Code](https://code.visualstudio.com/)*
 
 Somehow, Microsoft were able to make a genuinely great piece of software that's free and open source (and is also used to write this very document!). Despite being made using the abhorrent Electron framework, it somehow outperforms other software made with it, yet is still filled with tons of great features and good plugin library that's easy to access.
 
+Choco: `choco install vscode`
+
 ## **Multimedia**
 
 ## *Music*
 
-### [SoulseekQT](http://www.slsknet.org/)  /  [Nicotine+](https://nicotine-plus.org/)
+### *[SoulseekQT](http://www.slsknet.org/)  /  [Nicotine+](https://nicotine-plus.org/)*
 
 Soulseek is a peer 2 peer filesharing network and probably one of the best ways to obtain lossless or stupidly obscure music without having to do a blood sacrifice and study for a private tracker that will kick you out if you show up to your IRC invite interview a microsecond too late. It's a pretty large community (albeit not as large as it was back in its heyday) and there's tons of stuff to be found (sometimes even beyond music). The network operates on the concept of "shares" - publicly make your music library folder available for others on the network to access and others will do the same with theirs as well. The mantra here is "sharing is caring". The Soulseek network can be accessed with clients such as [SoulseekQT](http://www.soulseekqt.net/news/node/1) which has a QT interface or [Nicotine+](https://nicotine-plus.org/) alternatively using the GTK toolkit. VPN usage is advised, preferably with port-forwarding, due to some ~~wankstain~~ elitist users using plugins for publicly displaying users' IP's in their bios for shaming purposes.
 
-### MusicBee
+Choco: `choco install soulseek`  
 
-[MusicBee](https://getmusicbee.com/downloads/) is a music player and library organizer similar to iTunes, but without any service integration and completely using your own curated library. Heavy emphasis on customizability ala Winamp via all kinds of available skins, UI adjustment options, and general things to make your library swaggy. Supports playback of all kinds of formats, even old school tracker program formats such as ImpulseTracker .IT and ScreamTracker .s3m files. MusicBee also has some super neat features like auto-playlist which are continualy-updated playlists based on a ruleset (unbelievably powerful feature for library organization) and synchronization with your DAP/phone with transcoding on the fly.
+### *[MusicBee](https://getmusicbee.com/downloads/)*
 
-### MusicBrainz Picard
+MusicBee is a Windows music player and library organizer similar to iTunes, but without any service integration and completely using your own curated library. Heavy emphasis on customizability ala Winamp via all kinds of available skins, UI adjustment options, and general things to make your library swaggy. Supports playback of all kinds of formats, even old school tracker program formats such as ImpulseTracker .IT and ScreamTracker .s3m files. MusicBee also has some super neat features like auto-playlist which are continualy-updated playlists based on a ruleset (unbelievably powerful feature for library organization) and synchronization with your DAP/phone with transcoding on the fly.
 
-### MP3Tag
+### *[MP3Tag]()*
+// todo
+
+### *[MusicBrainz Picard]()*
+// todo
+
+### *[MP3Tag]()*
+// todo
+
+### *[beets]()*
+// todo
+
+### *[fre:ac]()*
+// todo
+
+### *[foobar2000]()*
+// todo
+
+### *[spek]()*
+// todo
+
+### *[Exact Audio Copy]()*
+// todo
+
+## *Video*
+
+### *[mpv]() / [mpv.net]()*
+// todo
+
+### *[HandBrake]()*
+// todo
+
+### *[ffmpeg]()*
+// todo
