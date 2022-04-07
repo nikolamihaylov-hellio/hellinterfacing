@@ -83,13 +83,13 @@ Somehow, Microsoft were able to make a genuinely great piece of software that's 
 
 ## *Music*
 
-### Soulseek
-[Soulseek](http://www.slsknet.org/news/node/1) is a filesharing tool that lets users share files from their hard drives through a P2P server in the form of "shares". Highly recommended here for downloading music in all kinds of file formats (FLAC, ogg, mp3, etc...) and building large libraries in a music player of your choice. One of the oldheads in the P2P scene and is still used largely to this day. VPN usage is recommended due to some ~~wankstains~~ users using external programs such as Nicotine for montioring IPs of other users who visit and download from shares. 
+### [SoulseekQT](http://www.slsknet.org/)  /  [Nicotine+](https://nicotine-plus.org/)
 
-[FAQ](http://www.slsknet.org/news/faq-page)
+Soulseek is a peer 2 peer filesharing network and probably one of the best ways to obtain lossless or stupidly obscure music without having to do a blood sacrifice and study for a private tracker that will kick you out if you show up to your IRC invite interview a microsecond too late. It's a pretty large community (albeit not as large as it was back in its heyday) and there's tons of stuff to be found (sometimes even beyond music). The network operates on the concept of "shares" - publicly make your music library folder available for others on the network to access and others will do the same with theirs as well. The mantra here is "sharing is caring". The Soulseek network can be accessed with clients such as [SoulseekQT](http://www.soulseekqt.net/news/node/1) which has a QT interface or [Nicotine+](https://nicotine-plus.org/) alternatively using the GTK toolkit. VPN usage is advised, preferably with port-forwarding, due to some ~~wankstain~~ elitist users using plugins for publicly displaying users' IP's in their bios for shaming purposes.
 
 ### MusicBee
-[MusicBee](https://getmusicbee.com/downloads/) is a music player. Heavy emphasis on customizability ala WinAmp via all kinds of available skins, UI adjustment options, and general things to make your library swaggy. Supports playback on all kinds of formats, even old school tracker program formats such as ImpulseTracker .IT and ScreamTracker .s3m files. 
+
+[MusicBee](https://getmusicbee.com/downloads/) is a music player and library organizer similar to iTunes, but without any service integration and completely using your own curated library. Heavy emphasis on customizability ala Winamp via all kinds of available skins, UI adjustment options, and general things to make your library swaggy. Supports playback of all kinds of formats, even old school tracker program formats such as ImpulseTracker .IT and ScreamTracker .s3m files. MusicBee also has some super neat features like auto-playlist which are continualy-updated playlists based on a ruleset (unbelievably powerful feature for library organization) and synchronization with your DAP/phone with transcoding on the fly.
 
 ### MusicBrainz Picard
 
