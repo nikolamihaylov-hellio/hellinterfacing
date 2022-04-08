@@ -84,6 +84,15 @@ QTTabBar gives you more control over customizing the Windows File Explorer by en
 Install with...  
 Choco: `choco install qttabbar`
 
+### *[JDownloader 2](https://jdownloader.org/jdownloader2)*
+// todo
+
+Install with...
+Choco: `choco install jdownloader`
+
+### *[Bulk Crap Uninstaller]()*
+// todo
+
 ## **Programming**
 
 ### *[Notepad++](https://notepad-plus-plus.org/)*
@@ -213,3 +222,9 @@ winget: `winget install -e --id HandBrake.HandBrake`
 
 Install with...  
 Choco: `choco install ffmpeg`
+
+### *[yt-dlp](https://github.com/yt-dlp/yt-dlp)*
+// todo
+
+Install with...
+Choco: `choco install yt-dlp`
