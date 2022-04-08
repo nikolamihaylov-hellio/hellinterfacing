@@ -75,7 +75,8 @@ Choco: `choco install 7zip`
 HWiNFO is a Windows application which gives you extremely detailed information on your hardware and what it's currently doing. Think of Speccy, but on steroids. The program includes a sensor monitor which gives you a great view on every single aspect of your computer's hardware as well as a logger to monitor changes over time.
 
 Install with...  
-Choco: `choco install hwinfo`
+Choco: `choco install hwinfo`  
+winget: `winget install -e --id REALiX.HWiNFO`
 
 ### *[QTTabBar](http://qttabbar.wikidot.com/)*
 QTTabBar gives you more control over customizing the Windows File Explorer by enabling tabs and changing Explorer's behaviour like double-clicking on an empty space to have you go up a directory. It's small stuff, but once you're used to it, there's no going back.
@@ -90,28 +91,32 @@ Choco: `choco install qttabbar`
 Notepad++ is a free/libre source code/text editor for Windows that is deeply customizable to fit your needs. It features syntax highlighting for dozens upon dozens of languages and also has [plugin support](https://github.com/notepad-plus-plus/nppPluginList) for all sorts of things such as a Markdown viewer and encryption/decryption.
 
 Install with...  
-Choco: `choco install notepadplusplus`
+Choco: `choco install notepadplusplus`  
+winget: `winget install -e --id Notepad++.Notepad++`
 
 ### *[GNU Emacs](https://www.gnu.org/software/emacs/)*
 
 GNU Emacs is an absurdly capable Lisp interpreter which goes beyond just being a simple text editor, but a self-contained "operating system", so to speak as well. It is highly extensible and customizable piece of software which is multiplatform and available to use anywhere, though ideally you'd want to use it on a GNU/Linux installation. org-mode is another very important component of GNU Emacs which serves as note-taking, checklisting, authoring, etc.
 
 Install with...  
-Choco: `choco install emacs`
+Choco: `choco install emacs`  
+winget: `winget install -e --id GNU.Emacs`
 
 ### *[vi/Vim](https://www.vim.org/)*
 
 Speaking of configurable text editors, it's impossible to omit vi/Vim. With a very steep learning curve especially if you're not used to keyboard-centric editors, once you do get used to it you'll want those vi/Vim keybindings on any other editors, hence the dozens and dozens of keybind integrations in various editors and IDEs. Definitely not recommended for beginners who just want to modify a small config file or casually write text, but recommended to those who want to check out a touted editor.
 
 Install with...  
-Choco: `choco install vim`
+Choco: `choco install vim`  
+winget: `winget install -e --id vim.vim`
 
 ### *[Visual Studio Code](https://code.visualstudio.com/)*
 
 Somehow, Microsoft were able to make a genuinely great piece of software that's free and open source (and is also used to write this very document!). Despite being made using the abhorrent Electron framework, it somehow outperforms other software made with it, yet is still filled with tons of great features and good plugin library that's easy to access.
 
 Install with...  
-Choco: `choco install vscode`
+Choco: `choco install vscode`  
+winget: `winget install -e --id Microsoft.VisualStudioCode`
 
 ## **Multimedia**
 
@@ -136,14 +141,16 @@ Choco: `choco install musicbee`
 MP3Tag is very capable Windows freeware which takes care of audio file metadata tags. Despite the name, it allows you to edit all sorts of file types such as FLAC, OGG, Opus, M4A, etc. There's also batch editing and scripting which lets you automate tagging based on conditions, as well as metadata fetching from sources like Discogs.
 
 Install with...  
-Choco: `choco install mp3tag`
+Choco: `choco install mp3tag`  
+winget: `winget install -e --id Mp3tag.Mp3tag`
 
 ### *[MusicBrainz Picard]()*
 
 MP3Tag, but for perfectionists. It's another audio metadata editor, but this one in particular is open-source and uses the highly-curated MusicBrainz database as its source. Useful features include AcousticID identification for files that do not already have tags written in them, album art fetching from the MB database and plugin support which makes Picard more extensible. Also make sure to grab this plugin which easily lets you submit metadata for a release which isn't present in the database (such as your own music, for example). It'll make the tagging experience of others much easier!
 
 Install with...  
-Choco: `choco install picard`
+Choco: `choco install picard`  
+winget: `winget install -e --id MusicBrainz.Picard`
 
 ### *[beets]()*
 
@@ -163,19 +170,28 @@ Choco: `choco install freac`
 // todo
 
 Install with...  
-Choco: `choco install foobar2000`
+Choco: `choco install foobar2000`  
+winget: `winget install -e --id PeterPawlowski.foobar2000`
 
 ### *[spek]()*
 // todo
 
 Install with...  
-Choco: `choco install spek`
+Choco: `choco install spek`  
+winget: `winget install -e --id AlexanderKojevnikov.Spek`
 
 ### *[Exact Audio Copy]()*
 // todo
 
 Install with...  
-Choco: `choco install eac`
+Choco: `choco install eac`  
+winget: `winget install -e --id AndreWiethoff.ExactAudioCopy`
+
+### *[DeltaWave](https://deltaw.org/)*
+// todo
+
+Install with...  
+Binary: `https://deltaw.org/DeltaWaveSetup.zip`
 
 ## *Video*
 
@@ -189,7 +205,8 @@ Choco: `choco install mpv` / `choco install mpvnet.install`
 // todo
 
 Install with...  
-Choco: `choco install handbrake`
+Choco: `choco install handbrake`  
+winget: `winget install -e --id HandBrake.HandBrake`
 
 ### *[ffmpeg]()*
 // todo
