@@ -132,36 +132,67 @@ Install with...
 Choco: `choco install musicbee`
 
 ### *[MP3Tag]()*
-// todo
+
+MP3Tag is very capable Windows freeware which takes care of audio file metadata tags. Despite the name, it allows you to edit all sorts of file types such as FLAC, OGG, Opus, M4A, etc. There's also batch editing and scripting which lets you automate tagging based on conditions, as well as metadata fetching from sources like Discogs.
+
+Install with...  
+Choco: `choco install mp3tag`
 
 ### *[MusicBrainz Picard]()*
-// todo
 
-### *[MP3Tag]()*
-// todo
+MP3Tag, but for perfectionists. It's another audio metadata editor, but this one in particular is open-source and uses the highly-curated MusicBrainz database as its source. Useful features include AcousticID identification for files that do not already have tags written in them, album art fetching from the MB database and plugin support which makes Picard more extensible. Also make sure to grab this plugin which easily lets you submit metadata for a release which isn't present in the database (such as your own music, for example). It'll make the tagging experience of others much easier!
+
+Install with...  
+Choco: `choco install picard`
 
 ### *[beets]()*
-// todo
+
+beets is a stupid powerful commandline-based music library organizer written in Python. In my particular use case, beets is scripted to run via a simple PowerShell script which scans a dedicated "for import" folder with Slsk downloads that have been fed thru Picard, then takes these files and imports them to my music library following a specifically formatted folder structure in order to make everything look neat, tidy and easy to navigate. During import, beets will run the files through another MusicBrainz check in order to make sure all of the tags are correct and nothing is missing. During this entire process, the program also creates a .db file which hosts a record of the entire database and can be explored in commandline. The way I utilize beets barely scratches the surface of what it's capable of doing and how extensible it is via plugins (such as one which embeds a BPM tag in which you tag along to your track's tempo in commandline). Takes a bit to set up, but an absolute essential for anyone with a music library which is slowly getting hard to manage.
+
+Install with...  
+Choco: `choco install beets`  
+pip: `pip install beets`
 
 ### *[fre:ac]()*
 // todo
 
+Install with...  
+Choco: `choco install freac`
+
 ### *[foobar2000]()*
 // todo
+
+Install with...  
+Choco: `choco install foobar2000`
 
 ### *[spek]()*
 // todo
 
+Install with...  
+Choco: `choco install spek`
+
 ### *[Exact Audio Copy]()*
 // todo
+
+Install with...  
+Choco: `choco install eac`
 
 ## *Video*
 
 ### *[mpv]() / [mpv.net]()*
 // todo
 
+Install with...  
+Choco: `choco install mpv` / `choco install mpvnet.install`
+
 ### *[HandBrake]()*
 // todo
 
+Install with...  
+Choco: `choco install handbrake`
+
 ### *[ffmpeg]()*
 // todo
+
+Install with...  
+Choco: `choco install ffmpeg`
