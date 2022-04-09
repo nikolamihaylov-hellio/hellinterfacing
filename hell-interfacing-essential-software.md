@@ -15,40 +15,36 @@ Here we fill out the software we use and recommend to other HELL INTERACING user
 ## **Operating Systems**
 
 ### *[Windows 8](https://www.microsoft.com/en-us/software-download/windows8ISO)*
-<img src="essential-software-images/windows81.svg" height="50">
 
 Hot take, but once you strip Windows 8.1 out of its abhorrent design choices and remove all of the bloat, it's a great OS. EOL ends in 2023 so it's still going despite being on the brink of death. There's no lack of driver update issues like with Windows 7 in terms of modern devices and GPUs so it'd be great for gaymen. Only download official Windows 8.1 ISOs from the Microsoft site and then active with an activator of your choice (such as a clean version of KMS).
 
 ### *[Windows 10 (Modified)](https://www.microsoft.com/de-de/software-download/windows10)*
-<img src="essential-software-images/windows10.svg" height="50">
 
 Underneath the TONS and TONS of Bill Gates turbo AIDS, there's a perfectly capable OS in here. You have to jump through quite a bit of hoops to get this thing clean for personal use, but once you do so, there isn't any debate - it's a good OS. Like earlier. Only download official ISOs from the Microsoft site instead of some Indian "Super Tech 64" Blogspot sites and activate with HWID. Note that in order to get the ISO download on the site instead of the Media Creation Tool, you'll have to change you're browser's User-Agent to either Linux or Mac OS. Next up you'll want to use something like Sycnex's [Windows10Debloater](https://github.com/Sycnex/Windows10Debloater) and run either the commandline PowerShell script or the GUI version.
 
 ### *[Windows 10 AME](https://ameliorated.info/)*
-<img src="essential-software-images/windows10ame.png" height="100">
 
 ...alternatively you can instead get a version of Windows 10 named [Ameliorated](https://ameliorated.info/). This modified installer of Windows 10 removes a ton of the pre-installed bloatware, minimizes install time, eliminates things such as Windows Update and Cortana and removes many of the telemetry that Microsoft added. The changelist is massive and it is recommended to read up on AME yourself, or better yet, test drive it in a VM or a computer you might have lying around doing nothing.
 
 ### *GNU/Linux*
-<img src="essential-software-images/gnulinux.svg" height="100">
 
 You knew this was coming. If you really, really love tinkering with your computer and want to immerse yourself in a new environment where knowledge of the inner workings of your OS and a lot of the installed software is incredibly useful, GNU/Linux might be for you. It's a vast world of [distributions](https://distrowatch.com/) which ranges from noob-friendly Windows replacements like [Linux Mint](https://linuxmint.com/) to l33t h4x0r + cunny-connoisseur distro like [Arch Linux](https://archlinux.org/). Speaking of Arch, appreciate the [ArchWiki](https://wiki.archlinux.org/) with all your power, because it is possibly one of the most comprehensive and well-maintained documentations in everything tech, going beyond just Arch but every aspect of GNU/Linux as well. Grab an ISO of whichever distro interests you and fire it up in a VM or install it on a Live USB and test drive it on your computer without having to install anything. Further info on GNU/Linux will be bellow.
 
 ## **Package Managers**
+
 An advantage that has been enjoyed by Mac OS X and GNU/Linux users for years has been the concept of a package manager. Bluntly put, it's a piece of software that lets you connect to a central repository where other software is hosted and with it you can install applications within your commandline without the need to look for .exe's or any installer binaries yourself. A package manager can also batch update your installed software with a single command which is a selling point alone. The problem is that these repositories host mostly open-source software only and very rarely would you find closed-source, proprietary programs (but then again, you might be better off without them if there's a good open-source alternative instead).
 
 ### *[Chocolatey](https://chocolatey.org/)*
-<img src="essential-software-images/chocolatey.svg" height="100">
 
 Choco is probably the largest package manager on Windows so far. It's super simple to install and figure out how to use it, especially if you have former package manager knowledge. On the website there is a ["search packages" function](https://community.chocolatey.org/packages) which will let you scour the entire repo and copy the install commands to paste into your commandline. The community is pretty large and the project seems to be in constant support, perhaps moreso than even Microsoft's own package manager winget.
 
 ### *winget*
+
 In response to the surge in popularity that package managers have been receiving over the past couple of years, Microsoft responded with winget. It is included by default with Windows 11 and also available through Windows 10's 1709 version. It supposedly does what it says on the tin, but I personally have not used it and cannot speak for its quality especially compared to Chocolatey. Similarly to Choco's package repository search tool, there's also [winget.run](https://winget.run/) to browse the winget repo and conveniently copy commands.
 
 ## **Web Browsers**
 
 ### *[Firefox Nightly](https://www.mozilla.org/en-US/firefox/channel/desktop/)*
-<img src="essential-software-images/firefoxnightly.png" height="100">
 
 This is the beta channel of Mozilla Firefox, which I personally find to be (ironically enough) more stable than the stable channel. You do get quite a bit of "update available" notifications but it's definitely something you can disable in `about:config`. By now everyone should know what Firefox is, and despite Mozilla's [incomprehensibly dumb actions](https://blog.mozilla.org/en/mozilla/we-need-more-than-deplatforming/) over the recent years, this is still a fine browser that competes with the Chromium cancer that's infesting every other contemporary browser out right now. While it is factually slower in some use cases over Chrome or Edge, its extensibility and customization gives it a real advantage that you should consider when picking a browser.
 
@@ -57,7 +53,6 @@ Choco: `choco install firefox-nightly --pre`
 winget: `winget install -e --id Mozilla.Firefox.Nightly`
 
 ### *[ungoogled-chromium](https://github.com/Eloston/ungoogled-chromium)*
-<img src="essential-software-images/ungoogledchromium.svg" height="100">
 
 ungoogled-chromium is a modification of Google Chromium which removes pretty much all of the features that phone back home to Google (even in normal Chromium). It does not allow the use of a Google account due to the stripped Google account integration. You might have to spend some time configuring its `chrome://settings` to your liking and enable things like saving cookies and site data upon closing of the browser, as such features are disabled by default for privacy reasons. Consult the [wiki](https://ungoogled-software.github.io/ungoogled-chromium-wiki/) for further information.
 
@@ -65,6 +60,7 @@ ungoogled-chromium is a modification of Google Chromium which removes pretty muc
 Choco: `choco install ungoogled-chromium`
 
 ## **Utilities**
+
 ### *[Everything](https://www.voidtools.com/)*
 
 Everything is an incredibly fast and lightweight file search engine for Windows which indexes your drive/s and monitors for changes to keep its index up to date. It also allows for Regex and advanced searches based on file metadata for extremely precise searches. It is recommended to exclude the Windows install folder by default as files within that directory could clog up your search results pretty often.
@@ -97,12 +93,13 @@ Choco: `choco install qttabbar`
 
 ### *[JDownloader 2](https://jdownloader.org/jdownloader2)*
 
-Open-source download manager written in J*va. Works great for batch downloading and queuing a bunch of links for sequential download. Supports all kinds of sites and allows logins for various premium file hosting services. This is what I personally use for downloading stuff from Archive. Because J**a sucks, the program feels slow, clunky and heavy, but otherwise works good. 
+Open-source download manager written in J*va. Works great for batch downloading and queuing a bunch of links for sequential download. Supports all kinds of sites and allows logins for various premium file hosting services. This is what I personally use for downloading stuff from Archive. Because J**a sucks, the program feels slow, clunky and heavy, but otherwise works good.
 
 >Install with...  
 Choco: `choco install jdownloader`
 
-### *[Bulk Crap Uninstaller]()*
+### *[Bulk Crap Uninstaller](https://www.bcuninstaller.com/)*
+
 // todo
 
 >Install with...  
@@ -161,7 +158,7 @@ MusicBee is a Windows music player and library organizer similar to iTunes, but 
 >Install with...  
 Choco: `choco install musicbee`
 
-### *[MP3Tag]()*
+### *[MP3Tag](https://www.mp3tag.de/en/)*
 
 MP3Tag is very capable Windows freeware which takes care of audio file metadata tags. Despite the name, it allows you to edit all sorts of file types such as FLAC, OGG, Opus, M4A, etc. There's also batch editing and scripting which lets you automate tagging based on conditions, as well as metadata fetching from sources like Discogs.
 
@@ -169,7 +166,7 @@ MP3Tag is very capable Windows freeware which takes care of audio file metadata 
 Choco: `choco install mp3tag`  
 winget: `winget install -e --id Mp3tag.Mp3tag`
 
-### *[MusicBrainz Picard]()*
+### *[MusicBrainz Picard](https://picard.musicbrainz.org/)*
 
 MP3Tag, but for perfectionists. It's another audio metadata editor, but this one in particular is open-source and uses the highly-curated MusicBrainz database as its source. Useful features include AcousticID identification for files that do not already have tags written in them, album art fetching from the MB database and plugin support which makes Picard more extensible. Also make sure to grab this plugin which easily lets you submit metadata for a release which isn't present in the database (such as your own music, for example). It'll make the tagging experience of others much easier!
 
@@ -177,7 +174,7 @@ MP3Tag, but for perfectionists. It's another audio metadata editor, but this one
 Choco: `choco install picard`  
 winget: `winget install -e --id MusicBrainz.Picard`
 
-### *[beets]()*
+### *[beets](https://github.com/beetbox/beets)*
 
 beets is a stupid powerful commandline-based music library organizer written in Python. In my particular use case, beets is scripted to run via a simple PowerShell script which scans a dedicated "for import" folder with Slsk downloads that have been fed thru Picard, then takes these files and imports them to my music library following a specifically formatted folder structure in order to make everything look neat, tidy and easy to navigate. During import, beets will run the files through another MusicBrainz check in order to make sure all of the tags are correct and nothing is missing. During this entire process, the program also creates a .db file which hosts a record of the entire database and can be explored in commandline. The way I utilize beets barely scratches the surface of what it's capable of doing and how extensible it is via plugins (such as one which embeds a BPM tag in which you tag along to your track's tempo in commandline). Takes a bit to set up, but an absolute essential for anyone with a music library which is slowly getting hard to manage.
 
@@ -185,27 +182,31 @@ beets is a stupid powerful commandline-based music library organizer written in 
 Choco: `choco install beets`  
 pip: `pip install beets`
 
-### *[fre:ac]()*
+### *[fre:ac](https://www.freac.org/)*
+
 // todo
 
 >Install with...  
 Choco: `choco install freac`
 
-### *[foobar2000]()*
+### *[foobar2000](https://www.foobar2000.org/)*
+
 // todo
 
 >Install with...  
 Choco: `choco install foobar2000`  
 winget: `winget install -e --id PeterPawlowski.foobar2000`
 
-### *[spek]()*
+### *[spek](http://spek.cc/)*
+
 // todo
 
 >Install with...  
 Choco: `choco install spek`  
 winget: `winget install -e --id AlexanderKojevnikov.Spek`
 
-### *[Exact Audio Copy]()*
+### *[Exact Audio Copy](https://www.exactaudiocopy.de/)*
+
 // todo
 
 >Install with...  
@@ -213,6 +214,7 @@ Choco: `choco install eac`
 winget: `winget install -e --id AndreWiethoff.ExactAudioCopy`
 
 ### *[DeltaWave](https://deltaw.org/)*
+
 // todo
 
 >Install with...  
@@ -220,26 +222,30 @@ Binary: `https://deltaw.org/DeltaWaveSetup.zip`
 
 ## *Video*
 
-### *[mpv]() / [mpv.net]()*
+### *[mpv](https://mpv.io/) / [mpv.net](https://github.com/stax76/mpv.net)*
+
 // todo
 
 >Install with...  
 Choco: `choco install mpv` / `choco install mpvnet.install`
 
-### *[HandBrake]()*
+### *[HandBrake](https://handbrake.fr/)*
+
 // todo
 
 >Install with...  
 Choco: `choco install handbrake`  
 winget: `winget install -e --id HandBrake.HandBrake`
 
-### *[ffmpeg]()*
+### *[ffmpeg](https://ffmpeg.org/)*
+
 // todo
 
 >Install with...  
 Choco: `choco install ffmpeg`
 
 ### *[yt-dlp](https://github.com/yt-dlp/yt-dlp)*
+
 // todo
 
 >Install with...
