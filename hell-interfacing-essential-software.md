@@ -138,15 +138,19 @@ The "it just werks" of music players, foobar2000 is one of the most customizable
 
 Stupid simple open-source spectrum analyser for audio files. No fuss, no nagging, no 15 windows to get to a result. Recommended use is to check if a lossless file is *really lossless*.
 
+### *[Navidrome]()*
+
+Navidrome is a self-hosted music library and streaming solution which makes use of your local music library and can be streamed/synced by any Subsonic/Airsonic compatible client. It can be deployed via Docker and set up fairly quickly once you read up the documentation. While not on the level of Plex, it is fairly user-friendly if you've never dabbled into self-hosting software before. As I'm writing this, it's hosting my almost half a terabyte FLAC collection managed with beets like a champ with no issues whatsoever, so I'm willing to bet libraries bigger than that will work just fine. You should absolutely make sure that you give it properly tagged files as Navidrome cannot modify metadata or try to source it from somewhere, hence why I would recommend it in a setup alongside beets and Picard. There's a built-in web UI that's set to open on port 4533 and can be accessed through any machine on the network, and if you port-forward or use a personal VPS, through the internet. In terms of clients, the one I personally use on desktop is [Feishin](https://github.com/jeffvli/feishin) and on Android it's [DSub](https://github.com/daneren2005/Subsonic) which takes care of .opus synchronization for local storage and offline playback.
+
 ### *[Exact Audio Copy](https://www.exactaudiocopy.de/)*
 
-Perfectionist CD ripping software and possibly the only one you'll ever need. If your drive is EAC-friendly the software will make full use of its AccurateRip support to verify that your rips have come out crisp clean and with some metadata.
+Perfectionist CD ripping software and possibly the only one you'll ever need. If your drive is EAC-friendly the software will make full use of its AccurateRip support to verify that your rips have come out crisp clean and with some metadata. Supports FLAC compression to both save space and your time from seperately having to pipe the .wav's into ffmpeg or what have you. 
 
 ## *Video*
 
 ### *[mpv](https://mpv.io/) / [mpv.net](https://github.com/stax76/mpv.net)*
 
-mpv should be the gold-standard for video players by this point. Out of the box, for super simple video playback, it works great and utilizes very minimal resources, but once you delve deep into configuration, scripting and extensions, it can be *your* video player. For reference [here](https://github.com/nikolamihaylov-hellio/mpv) is my personal configuration which I can easily deplot on a clean installation and have my video player tailored to me out of the box on a fresh installation.
+mpv should be the gold-standard for video players by this point. Out of the box, for super simple video playback, it works great and utilizes very minimal resources, but once you delve deep into configuration, scripting and extensions, it can be *your* video player. For reference [here](https://github.com/nikolamihaylov-hellio/mpv) is my personal configuration which I can easily deploy on a clean installation and have my video player tailored to me out of the box on a fresh installation.
 
 ### *[HandBrake](https://handbrake.fr/)*
 
