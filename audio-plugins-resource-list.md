@@ -156,7 +156,17 @@ https://cardinal.kx.studio/
 
 </details>
 
-## Plugins - Drums
+### Minimal Audio Current (1.2.1)
+
+<details>
+<summary>Magnet</summary>
+
+```
+magnet:?xt=urn:btih:0e9bef5e118cd7166bc065bae425beb45da98bcd&dn=Minimal.Audio.Current.%28Revision.1.The.Fix.Is.In%29.v1.2.1_TCD&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet
+```
+</details>
+
+## Plugins - Drums and Samplers
 
 ### XLN Audio Addictive Drums 2
 
@@ -178,7 +188,17 @@ magnet:?xt=urn:btih:67F159110876B90E1B71C116CA8BA5CE12B3DBD3&tr=http%3A%2F%2Fbt.
 ```
 </details>
 
-## Plugins - Utilities
+### PotenzaDSP Amigo Sampler (1.0.1)
+
+<details>
+<summary>Magnet</summary>
+
+```
+magnet:?xt=urn:btih:d0b1380effcbfafb86172d0919851b531d91e10b&dn=PotenzaDSP%20-%20Amigo%20Sampler%20v1.0.1&tr=http%3A%2F%2Fbt.t-ru.org%2Fann%3Fmagnet
+```
+</details>
+
+## Plugins - Utilities and Effects
 
 ### IK Multimedia AmpliTube 5
 
@@ -325,6 +345,16 @@ magnet:?xt=urn:btih:3E080F5ADE82BF3292B0288B641323E34ACE7875&tr=http%3A%2F%2Fbt.
 ```
 </details>
 
+### Minimal Audio Rift (2.2.0r2)
+
+<details>
+<summary>Magnet</summary>
+
+```
+magnet:?xt=urn:btih:e409077711389606f9ae95caafdd4e2d0e4829ce&dn=Minimal.Audio.Rift.v2.2.0r2-TCD&tr=http%3A%2F%2Fbt.t-ru.org%2Fann%3Fmagnet
+```
+</details>
+
 ## Plugins - Mixing
 
 ### Analog Obsession FETISH
@@ -373,5 +403,45 @@ magnet:?xt=urn:btih:08775F0AD19026F3A61E1C6AAF4A5B28AA8AFFF1&tr=http%3A%2F%2Fbt2
 
 ```
 magnet:?xt=urn:btih:DFFB7ECCD0C47EC9FA1AE8212283142FB1CFCE29&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann%3Fmagnet&dn=Tokyo%20Dawn%20Records%20-%20TDR%20VOS%20SlickEQ%20GE%201.3.7%20VST%2C%20VST3%2C%20AAX%2C%20AU%20WIN.OSX%20x86%20x64%20%5B10.2021%5D
+```
+</details>
+
+### iZotope Ozone 11 Advanced (11.0.1)
+
+<details>
+<summary>Magnet</summary>
+
+```
+magnet:?xt=urn:btih:5c40cc2c0bf93f55d4dbd478a38098d3e40dca55&dn=iZotope%20-%20Ozone%2011%20Advanced%20v11.0.1%20VST3%2C%20AAX%20x64%20%7BCE-V.R%7D%20%5B12.05.2024%5D&tr=http%3A%2F%2Fbt.t-ru.org%2Fann%3Fmagnet
+```
+</details>
+
+### Cradle The God Particle (1.2.2)
+
+<details>
+<summary>Magnet</summary>
+
+```
+magnet:?xt=urn:btih:fde8d4c23ecaa6a6ba973a95b14bcc0eb65a74a9&dn=Cradle%20The%20God%20Particle%20v1.2.2%20x64%20Win&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet
+```
+</details>
+
+### u-he Satin (1.3.3)
+
+<details>
+<summary>Magnet</summary>
+
+```
+magnet:?xt=urn:btih:6cdc351854313a79ba40a887838e50ce1b538436&dn=Heckmann%20Audio%20-%20u-he%20Satin%20v1.3.3&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann%3Fmagnet
+```
+</details>
+
+### Musik Hack Master Plan (1.5.5)
+
+<details>
+<summary>Magnet</summary>
+
+```
+magnet:?xt=urn:btih:d9313e7e2b2c0802efb23c2886a75266d86bb7fa&dn=Musik%20Hack%20-%20Master%20Plan%20v1.5.5&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet
 ```
 </details>
