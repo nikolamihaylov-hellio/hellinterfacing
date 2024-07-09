@@ -80,6 +80,13 @@ https://asb2m10.github.io/dexed/
 magnet:?xt=urn:btih:87AB131B53648F5110A9102D44A5C8E87EB231E1&tr=http%3A%2F%2Fbt2.t-ru.org%2Fann%3Fmagnet&dn=Heckmann%20Audio%20-%20u-he%20Diva%20v1.4.7%20WIN%2FMAC%20VST%2C%20VST3%2C%20AAX%2C%20CLAP%2C%20AU%20x86%20x64%20%5B22.10.2023%5D
 ```
 
+### Modartt Pianoteq PRO (6.7.0)
+
+```
+magnet:?xt=urn:btih:120CD20C2432F189AE79CD68D2CD646AB598B2BD&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet&dn=Modartt%20-%20Pianoteq%20PRO%20v6.7.0%20STANDALONE%2FVST%2FAAX%20x86%20x64%20Fixed%20%5B19.4.2020%5D
+```
+
+
 ### Cardinal
 
 https://cardinal.kx.studio/
